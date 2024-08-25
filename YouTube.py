@@ -16,7 +16,6 @@ app.title("𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐕𝐢𝐝𝐞𝐨𝐬 𝐃𝐨𝐰�
 url_var = tk.StringVar()
 save_path_var = tk.StringVar()
 
-
 def start_download():
     url = url_var.get()
     save_path = save_path_var.get()
