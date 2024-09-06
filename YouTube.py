@@ -23,7 +23,7 @@ def start_download():
         status_label.config(
             text="𝘜𝘙𝘓 𝘰𝘳 𝘚𝘢𝘷𝘦 𝘗𝘢𝘵𝘩 𝘪𝘴 𝘮𝘪𝘴𝘴𝘪𝘯𝘨!", text_color="red")
         return
-
+        
     try:
         yt = YouTube(url)
         streams = yt.streams.filter(progressive=True, file_extension="mp4")
@@ -31,7 +31,6 @@ def start_download():
         highest_res_stream.download(output_path=save_path)
         status_label.config(
             text="𝙑𝙞𝙙𝙚𝙤 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮!", text_color="green")
-        
     except Exception as e:
         status_label.config(text=f"Error: {str(e)}", text_color="red")
 
