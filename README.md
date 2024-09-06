@@ -1,6 +1,6 @@
 ## Overview
 
-The **YouTube Videos Downloader** is a graphical user interface (GUI) application built using `Tkinter` and `CustomTkinter` for downloading YouTube videos. This application allows users to input a YouTube video URL and select a directory to save the downloaded video. It utilizes the `pytubefix` library to handle video downloading.
+The **YT Web Scrapper** is a graphical user interface (GUI) application built using `Tkinter` and `CustomTkinter` for downloading YouTube videos. This application allows users to input a YouTube video URL and select a directory to save the downloaded video. It utilizes the `pytubefix` library to handle video downloading.
 
 ## Features
 
