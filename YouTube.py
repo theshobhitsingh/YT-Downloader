@@ -74,7 +74,6 @@ def create_ui():
     status_label = ctk.CTkLabel(app, text="", font=("Arial", 14))
     status_label.pack(pady=20)
 
-
 create_ui()
 
 app.mainloop()
