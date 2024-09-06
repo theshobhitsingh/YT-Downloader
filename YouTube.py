@@ -31,6 +31,7 @@ def start_download():
         highest_res_stream.download(output_path=save_path)
         status_label.config(
             text="𝙑𝙞𝙙𝙚𝙤 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮!", text_color="green")
+        
     except Exception as e:
         status_label.config(text=f"Error: {str(e)}", text_color="red")
 
