@@ -41,7 +41,6 @@ def open_file_dialog():
         save_path_var.set(folder)
         path_label.config(text=f"𝙎𝙚𝙡𝙚𝙘𝙩𝙚𝙙 𝙛𝙤𝙡𝙙𝙚𝙧: {folder}")
 
-
 def create_ui():
     # Title
     title = ctk.CTkLabel(
