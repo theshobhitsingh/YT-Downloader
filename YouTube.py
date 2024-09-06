@@ -34,7 +34,6 @@ def start_download():
     except Exception as e:
         status_label.config(text=f"Error: {str(e)}", text_color="red")
 
-
 def open_file_dialog():
     folder = filedialog.askdirectory()
     if folder:
