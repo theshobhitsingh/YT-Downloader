@@ -49,4 +49,4 @@ pip install customtkinter pytubefix
 Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an issue or submit a pull request.
 
 ## Author
-It is developed by me: Shobhit Singh.
+It is developed by me: Shobhit Singh
